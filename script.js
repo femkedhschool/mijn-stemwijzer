@@ -78,7 +78,7 @@ fetch("stemmingen.csv")
                 document.querySelector("h2");
 
             const tekst =
-                document.querySelector("body > p");
+                  document.getElementById("stellingtekst");
 
             titel.textContent =
                 stelling.onderwerp;
